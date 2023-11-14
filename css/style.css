@@ -1,0 +1,27 @@
+
+@import 'estilos';
+
+:root {
+    --bs-blue: #0d6efd;
+}
+div.container{
+    margin: 0 20px;
+}
+section{
+    padding: 30px;
+}
+h1 {
+    font-family: 'Playfair', sans-serif;
+    color: var(--bs-blue);
+}
+p, p2 {
+    font-family:'Mukta', monospace;
+}
+.div-centered {
+    text-align: left; 
+    margin: auto; 
+    width: 500px;
+}
+@media (max-width: 768px) {
+    header { height: auto; }
+  }
